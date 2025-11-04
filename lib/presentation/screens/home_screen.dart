@@ -19,11 +19,16 @@ class HomeScreen extends StatelessWidget {
           ),
           ListTile(
             title: const Text("Bloc"),
-            subtitle: const Text("Simple state manager"),
+            subtitle: const Text("State manager"),
             trailing: const Icon(Icons.arrow_forward_ios_rounded),
             onTap: () {
               context.push('/bloc');
             },
+          ),
+
+          const Padding(
+            padding: EdgeInsetsGeometry.symmetric(horizontal: 10),
+            child: Divider(),
           ),
         ],
       ),
