@@ -30,6 +30,14 @@ class HomeScreen extends StatelessWidget {
             padding: EdgeInsetsGeometry.symmetric(horizontal: 10),
             child: Divider(),
           ),
+          ListTile(
+            title: const Text("Form "),
+            subtitle: const Text("traditional form"),
+            trailing: const Icon(Icons.arrow_forward_ios_rounded),
+            onTap: () {
+              context.push('/form');
+            },
+          ),
         ],
       ),
     );

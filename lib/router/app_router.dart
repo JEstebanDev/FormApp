@@ -6,5 +6,6 @@ final appRouter = GoRouter(
     GoRoute(path: '/', builder: (context, state) => const HomeScreen()),
     GoRoute(path: '/cubits', builder: (context, state) => const CubitScreen()),
     GoRoute(path: '/bloc', builder: (context, state) => const BlockScreen()),
+    GoRoute(path: '/form', builder: (context, state) => const FormScreen()),
   ],
 );
